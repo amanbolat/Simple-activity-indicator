@@ -13,6 +13,8 @@
 		DA66B6BA1D8AB846000EFFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA66B6B91D8AB846000EFFC3 /* Assets.xcassets */; };
 		DA66B6BD1D8AB846000EFFC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA66B6BB1D8AB846000EFFC3 /* LaunchScreen.storyboard */; };
 		DA66B6C81D8AB846000EFFC3 /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66B6C71D8AB846000EFFC3 /* ActivityIndicatorTests.swift */; };
+		DA66B6D31D8AB874000EFFC3 /* AmanIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66B6D21D8AB874000EFFC3 /* AmanIndicator.swift */; };
+		DA66B6D51D8B0F4C000EFFC3 /* AmanWhisper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA66B6D41D8B0F4C000EFFC3 /* AmanWhisper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		DA66B6C31D8AB846000EFFC3 /* ActivityIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA66B6C71D8AB846000EFFC3 /* ActivityIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorTests.swift; sourceTree = "<group>"; };
 		DA66B6C91D8AB846000EFFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA66B6D21D8AB874000EFFC3 /* AmanIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmanIndicator.swift; sourceTree = "<group>"; };
+		DA66B6D41D8B0F4C000EFFC3 /* AmanWhisper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmanWhisper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				DA66B6B21D8AB846000EFFC3 /* AppDelegate.swift */,
 				DA66B6B41D8AB846000EFFC3 /* ViewController.swift */,
+				DA66B6D21D8AB874000EFFC3 /* AmanIndicator.swift */,
+				DA66B6D41D8B0F4C000EFFC3 /* AmanWhisper.swift */,
 				DA66B6B61D8AB846000EFFC3 /* Main.storyboard */,
 				DA66B6B91D8AB846000EFFC3 /* Assets.xcassets */,
 				DA66B6BB1D8AB846000EFFC3 /* LaunchScreen.storyboard */,
@@ -199,8 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA66B6D31D8AB874000EFFC3 /* AmanIndicator.swift in Sources */,
 				DA66B6B51D8AB846000EFFC3 /* ViewController.swift in Sources */,
 				DA66B6B31D8AB846000EFFC3 /* AppDelegate.swift in Sources */,
+				DA66B6D51D8B0F4C000EFFC3 /* AmanWhisper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

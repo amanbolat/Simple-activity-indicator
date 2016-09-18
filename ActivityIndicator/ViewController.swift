@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  var indicatorView: AmanIndicator?
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    indicatorView = AmanIndicator(vc: self, message: "Loading...")
   }
 
   override func didReceiveMemoryWarning() {
@@ -20,6 +23,12 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+  @IBAction func showBtnPressed(_ sender: AnyObject) {
+    indicatorView?.show()
+  }
+  @IBAction func hideBtnPressed(_ sender: AnyObject) {
+    indicatorView?.hide()
+  }
 
 }
 
